@@ -20,3 +20,10 @@ if has_ticket:
   print("You can enter the concert.")
 else:
   print("You need to buy a ticket.")
+
+num = 6
+# This is a ternary operator
+# print("Positive" if num > 0 else "Negative")
+result = "EVEN" if num % 2 == 0 else "ODD"
+
+print(result)
