@@ -21,9 +21,15 @@ if has_ticket:
 else:
   print("You need to buy a ticket.")
 
-num = 6
+num = 5
+a = 6
+b = 7
+age = 25
+
 # This is a ternary operator
 # print("Positive" if num > 0 else "Negative")
-result = "EVEN" if num % 2 == 0 else "ODD"
+# result = "EVEN" if num % 2 == 0 else "ODD"
+max_num = a if a > b else b
+min_num = a if a < b else b
 
-print(result)
+print(min_num)
