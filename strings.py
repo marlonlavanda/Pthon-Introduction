@@ -8,6 +8,7 @@ phone_number = input("Enter your phone number: ")
 # name = name.lower()
 # result = name.isdigit() # isdigit() returns True if all characters in the string are digits
 # result = name.isalpha() # returns True if all characters are alphabets
-result = phone_number.count("-")
+# result = phone_number.count("-")
+phone_number = phone_number.replace("-", "")
 
-print(result)
+print(phone_number)
